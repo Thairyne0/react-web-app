@@ -5,10 +5,10 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 
 const MyNavBar = (props) => {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="dark" data-bs-theme="dark">
+    <Navbar collapseOnSelect expand="lg" bg="light" data-bs-theme="light">
       <Container fluid>
         <Navbar.Brand href="#home">
-          React-Bootstrap - {props.subtitle}
+          Progetto Universitá - {props.subtitle}
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
